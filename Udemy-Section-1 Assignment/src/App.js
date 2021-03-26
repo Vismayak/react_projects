@@ -3,6 +3,7 @@ import './App.css';
 import UserInput from './UserInput';
 import UserOutput from './UserOutput';
 
+
 class App extends Component {
   state= {
     name: "Visu"
@@ -20,6 +21,7 @@ class App extends Component {
         <UserOutput 
         name = {this.state.name} 
         age = '23' 
+
          />
       </div>
     );
